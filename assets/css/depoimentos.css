@@ -1,0 +1,39 @@
+.depoimentos {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.depoimentos__pessoa1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(212, 212, 212);
+
+    width: 30%;
+    margin-left: 100px;
+}
+
+.imagem__pessoa1 {
+    padding-right: 20px;
+}
+
+.depoimentos__pessoa1--texto {
+
+}
+
+.depoimentos__pessoa2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(212, 212, 212);
+
+    width: 30%;
+    margin-right: 100px;
+}
+
+.imagem__pessoa2 {
+
+}
+
+.depoimentos__pessoa2--texto {
+    
+}

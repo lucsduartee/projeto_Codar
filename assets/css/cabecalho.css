@@ -1,0 +1,26 @@
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    padding: 2rem;
+    margin-bottom: 150px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .cabecalho{
+        flex-direction: column;
+        margin-top: 50px;
+        justify-content: space-between;
+        height: 200px
+    }
+
+    .menu__link--botao {
+        display: none;
+    }
+}
+

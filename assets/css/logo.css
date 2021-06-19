@@ -1,0 +1,18 @@
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 3.5rem;
+    font-style: italic;
+    color: black;
+}
+
+#codar {
+    color: #D6000D;
+}
+
+@media screen and (max-width: 1024px){
+    .logo {
+        font-size: 8rem;
+        font-weight: bold;
+    }
+}
